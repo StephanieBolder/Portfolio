@@ -337,3 +337,7 @@
 
 .grow { transition: all .5s ease-in-out; }
 .grow:hover { transform: scale(1.02); }
+
+.justify-between {
+  justify-content: space-between;
+}

@@ -8,11 +8,13 @@
   <meta name="author" content="Daily Dev Tips" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="./assets/images/Logo.png" />
 </head>
 
 <body class="border-16 border-white">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+
   <div class="container">
     <input type="checkbox" name="" id="menuBtn">
     <div class="menu_overlay">
@@ -26,14 +28,21 @@
       </ul>
     </div>
     <div class="landing_page">
-      <div class="menu">
-        <label for="menuBtn">
-          <img src="./assets/images/HamburgerOpen.png" class="fas h-12"></img>
-        </label>
+      <div class="flex flex-row">
+        <div class="">
+          <img src="./assets/images/Logo.png" class="w-24">
+        </div>
+        <div class="menu">
+          <label for="menuBtn">
+            <img src="./assets/images/Hamburger1.png" class="fas h-12"></img>
+          </label>
+        </div>
       </div>
     </div>
 
-    <div class="font-yipes h-full flex flex-col justify-center items-center text-3xl md:text-4xl lg:text-5xl bg-gray-200">
+
+    <div
+      class="font-yipes h-full flex flex-col justify-center items-center text-3xl md:text-4xl lg:text-5xl bg-gray-200">
       <div class="w-4/5 md:w-3/5 text-center leading-relaxed">Hi There! I'm Stephanie
         <div>a Visual Designer
           <div>Specializing in UI & UX</div>
@@ -55,55 +64,81 @@
     </div>
 
     <a id="projects">
-    <div class=" text-textdark flex flex-center justify-center mt-24 ">
-      <div class="w-full lg:w-4/5 flex flex-col ">
-        <a href="#">
-          <div class="flex flex-col md:flex-row justify-center align-center items-center grow">
-            <div class="flex flex-col w-11/12 md:w-3/12 mr-0 md:mr-8 ">
-              <div class="font-yipes text-2xl lg:text-5xl">PSV Zwemmen</div>
-              <div class="mt-2 font-poppins text-textmedium text-sm">Sep 2020 - Jan 2021</div>
-              <div class="mt-2 font-poppins text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</div>
+      <div class=" text-textdark flex flex-center justify-center mt-24 ">
+        <div class="w-full lg:w-4/5 flex flex-col ">
+          <a href="weddingplanning.html">
+            <div class="flex flex-col md:flex-row justify-center align-center items-center grow">
+              <div class="flex flex-col w-11/12 md:w-3/12 mr-0 md:mr-8 ">
+                <div class="font-yipes text-2xl lg:text-5xl">Wedding Planning</div>
+                <div class="mt-2 font-poppins text-textmedium font-light text-sm">Feb 2022</div>
+                <div class="mt-2 font-poppins text-base">“When I am planning a wedding, I want to be able to buy and
+                  rent everything from a single place, so I can stay organized and reduce stress.”</div>
+              </div>
+              <div class="w-11/12 md:w-6/12 lg:w-5/12 bg-orange-200 ml-0 md:ml-8 mt-4 md:mt-0">
+                <img src="./assets/images/weddingplanning_frontpage.png" class="">
+              </div>
             </div>
-            <div class="w-11/12 md:w-6/12 lg:w-5/12 bg-orange-200 ml-0 md:ml-8 mt-4 md:mt-0">
-              <img src="./assets/images/Interface1.png" class="">
+          </a>
+          <a href="#">
+            <div class="flex flex-col md:flex-row justify-center align-center items-center grow mt-24 mb-24">
+              <div class="w-11/12 md:w-6/12 lg:w-5/12 bg-orange-200 mr-0 md:mr-8 mt-4 md:mt-0">
+                <img src="./assets/images/momoyoga_frontpage2.png" class="">
+              </div>
+              <div class="flex flex-col w-11/12 md:w-3/12 ml-0 md:ml-8 ">
+                <div class="font-yipes text-2xl lg:text-5xl">One Stop Shop</div>
+                <div class="mt-2 font-poppins text-textmedium font-light text-sm">Sep 2021 - Jan 2022</div>
+                <div class="mt-2 font-poppins text-base">"What are the possibilities for a one stop shop within
+                  Momoyoga, looking at the development of the market, and the needs of the current users?"</div>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="flex flex-col md:flex-row justify-center align-center items-center grow mt-24 mb-24">
-            <div class="flex flex-col w-11/12 md:w-3/12 mr-0 md:mr-8 ">
-              <div class="font-yipes text-2xl lg:text-5xl">PSV Zwemmen</div>
-              <div class="mt-2 font-poppins text-textmedium text-sm">Sep 2020 - Jan 2021</div>
-              <div class="mt-2 font-poppins text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</div>
+          </a>
+          <a href="psvzwemmen.html">
+            <div class="flex flex-col md:flex-row justify-center align-center items-center grow">
+              <div class="flex flex-col w-11/12 md:w-3/12 mr-0 md:mr-8 ">
+                <div class="font-yipes text-2xl lg:text-5xl">PSV Zwemmen</div>
+                <div class="mt-2 font-poppins text-textmedium font-light text-sm">Sep 2020 - Jan 2021</div>
+                <div class="mt-2 font-poppins text-base">"Create an application in which the PSV Swimming members can
+                  organize their training, matches and more."</div>
+              </div>
+              <div class="w-11/12 md:w-6/12 lg:w-5/12 bg-orange-200 ml-0 md:ml-8 mt-4 md:mt-0">
+                <img src="./assets/images/psvzwemmen_frontpage2.png" class="">
+              </div>
             </div>
-            <div class="w-11/12 md:w-6/12 lg:w-5/12 bg-orange-200 ml-0 md:ml-8 mt-4 md:mt-0">
-              <img src="./assets/images/Interface1.png" class="">
+          </a>
+          <a href="#">
+            <div class="flex flex-col md:flex-row justify-center align-center items-center grow mt-24 mb-24">
+              <div class="w-11/12 md:w-6/12 lg:w-5/12 bg-orange-200 mr-0 md:mr-8 mt-4 md:mt-0">
+                <img src="./assets/images/momoyoga_frontpage2.png" class="">
+              </div>
+              <div class="flex flex-col w-11/12 md:w-3/12 ml-0 md:ml-8 ">
+                <div class="font-yipes text-2xl lg:text-5xl">Momoyoga</div>
+                <div class="mt-2 font-poppins text-textmedium font-light text-sm">Feb 2020 - Aug 2020</div>
+                <div class="mt-2 font-poppins text-base">"Think of a new and creative idea for the Momoyoga app which
+                  makes it possible for all yogi's to use the app."</div>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
-    </div>
     </a>
 
     <a id="about">
-    <div class="text-textdark bg-gray-200 flex flex-center justify-center mt-24  items-center pt-24 ">
-      <div class="w-4/5 lg:w-3/5 flex flex-col">
+      <div class="text-textdark bg-gray-200 flex flex-center justify-center mt-24  items-center pt-24 ">
+        <div class="w-4/5 lg:w-3/5 flex flex-col">
           <div class="flex flex-col md:flex-row justify-center align-center items-center">
             <div class="mr-0 md:mr-8 relative flex flex-col">
               <img src="./assets/images/AboutMe.png" class="rounded-full w-96">
-              <a href=""><img src="./assets/images/Resume.png" class="image absolute w-2/5 bottom-0 ml-48 lg:ml-72 rounded-full"></a>
+              <a href=""><img src="./assets/images/Resume.png"
+                  class="image absolute w-2/5 bottom-0 ml-48 lg:ml-72 rounded-full"></a>
             </div>
             <div class="flex flex-col ml-0 mt-8 md:mt-0 md:ml-8 w-11/12 lg:w-2/5">
               <div class="font-yipes text-5xl">About me</div>
               <div class="mt-2 font-poppins text-base">My name is Stephanie Bolder</div>
               <div class="mt-2 font-poppins text-base mt-2">A Dutch visual designer with a great passion for UI & UX
                 design. I am currently studying ICT & Media Design and will be graduating in July 2023.</div>
-                <div class="mt-2 font-poppins text-base mt-2">I design for the magic of a user-first experience, combined with clean and minimalistic
-                  design.</div>
+              <div class="mt-2 font-poppins text-base mt-2">I design for the magic of a user-first experience, combined
+                with clean and minimalistic
+                design.</div>
             </div>
           </div>
           <div class="mt-24 md:mt-48 ">
@@ -118,10 +153,13 @@
                 Bolder</div>
             </div>
           </div>
+        </div>
       </div>
-    </div>
     </a>
+
   </div>
 
+
 </body>
+
 </html>

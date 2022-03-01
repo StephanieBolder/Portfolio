@@ -13,8 +13,8 @@ module.exports = {
       colors: {
         'textdark': '#2C2C2C',
         'textmedium': '#928F8B',
-        'text-ight': '#F9F9F9',
-        'backgroundbeige': '#EEEAE1',
+        'textlight': '#F9F9F9',
+        'backgroundgray': '#F3F1EF',
         'backgroundblack': '#2C2C2C',
         'lilac': '#E8CFFC',
       },
